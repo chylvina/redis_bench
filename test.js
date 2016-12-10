@@ -77,6 +77,8 @@ Test.prototype.run = function (callback) {
 Test.prototype.new_client = function (id) {
   var self = this, new_client;
 
+  this.client_options.password = 'chylvina';
+
   new_client = redis.createClient(this.client_options);
   new_client.create_time = Date.now();
 
