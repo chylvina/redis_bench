@@ -1,0 +1,28 @@
+{
+  "name": "redis_bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chylvina/redis_bench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chylvina/redis_bench/issues"
+  },
+  "homepage": "https://github.com/chylvina/redis_bench#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "hiredis": "^0.5.0",
+    "metrics": "^0.1.10",
+    "redis": "^2.6.3",
+    "tcp-port-used": "^0.1.2",
+    "win-spawn": "^2.0.0"
+  }
+}
